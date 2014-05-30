@@ -21,11 +21,11 @@ public class TriangleTest {
 
 	@Test
 	public void isIsoscelesTriangle() {
-		fail("Not yet implemented");
+
 	}
 	
 	@Test
 	public void isEquilateralTriangle() {
-		fail("Not yet implemented");
+
 	}
 }

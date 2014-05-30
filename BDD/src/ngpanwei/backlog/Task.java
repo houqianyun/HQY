@@ -7,6 +7,7 @@ public class Task {
 
 	    private String name ;
 	    private String status ;
+	    private String priority;
 	    public Task(String taskName) {
 	        name = taskName ;
 	        status = STATUS_TODO ;
@@ -23,4 +24,10 @@ public class Task {
 	    public void setStatus(String status) {
 	        this.status = status;
 	    }
+		public String getPriority() {
+			return priority;
+		}
+		public void setPriority(String priority) {
+			this.priority = priority;
+		}
 }
